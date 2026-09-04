@@ -1,0 +1,379 @@
+﻿........................................................................ [  3%]
+........................................................................ [  6%]
+........................................................................ [  9%]
+........................................................................ [ 12%]
+........................................................................ [ 16%]
+........................................................................ [ 19%]
+........................................................................ [ 22%]
+.............................................s.......................... [ 25%]
+........................................................................ [ 29%]
+........................................................................ [ 32%]
+........................................................................ [ 35%]
+........................................................................ [ 38%]
+........................................................................ [ 42%]
+........................................................................ [ 45%]
+........................................................................ [ 48%]
+........................................................................ [ 51%]
+........................................................................ [ 55%]
+........................................................................ [ 58%]
+........................................................................ [ 61%]
+........................................................................ [ 64%]
+........................................................................ [ 68%]
+........................................................................ [ 71%]
+........................................................................ [ 74%]
+........................................................................ [ 77%]
+........................................................................ [ 81%]
+........................................................................ [ 84%]
+........................................................................ [ 87%]
+........................................................................ [ 90%]
+........................................................................ [ 94%]
+........................................................................ [ 97%]
+........................................................                 [100%]
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.11.9-final-0 _______________
+
+Name                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------
+alembic\versions\0fc3b8429cb0_add_participant_aetherhub_seen_at.py           11      2    82%   22, 26
+alembic\versions\1ab9c3d7dda1_add_tournament_closed_by.py                    11      2    82%   21, 25
+alembic\versions\2a5b53ae1edf_complete_achievement_hardening.py              41     32    22%   21-89, 97-113
+alembic\versions\2c906a8d5c01_add_achievements.py                            21     12    43%   21-55, 59-64
+alembic\versions\3c1587c33ad2_enable_hobby_games_imports.py                  15      0   100%
+alembic\versions\4b2a49905e82_split_spy_and_walls_macros.py                  11      2    82%   23, 33
+alembic\versions\5e2bd7e0283f_split_missing_decks_reminder.py                17      8    53%   21-31, 35-44
+alembic\versions\6e8ac3078740_add_cellar_deck_reservations.py                35     26    26%   21-96, 107-119
+alembic\versions\7c178567f22c_add_club_schedules.py                          13      4    69%   26-40, 44-45
+alembic\versions\7f446c079123_add_poll_regulars.py                           13      4    69%   22-35, 39-40
+alembic\versions\8d26a576e45a_add_cellar_sheet_fields.py                     13      4    69%   21-22, 29-30
+alembic\versions\9b5e1ed436ed_drop_third_missing_decks_reminder.py           11      2    82%   21, 25
+alembic\versions\9fc68f844468_add_round_pairing_scores.py                    13      4    69%   24-25, 30-31
+alembic\versions\11cdd73fac96_add_club_announcement_settings.py              19      5    74%   41-45
+alembic\versions\40f49c4eba55_add_user_status_by_pairings.py                 11      2    82%   24, 32
+alembic\versions\82b0e3af200f_add_achievement_report_deliveries.py           19     10    47%   21-52, 60-64
+alembic\versions\94b5f49c6961_add_user_poll_role_and_notify.py               13      4    69%   22-26, 33-34
+alembic\versions\141bc09d4548_web_user_support.py                            21     12    43%   24-38, 45-50
+alembic\versions\205dd0048c4c_expand_macro_archetype_families.py             12      3    75%   23-36, 57
+alembic\versions\266ab09f6f31_move_pair_of_dice_schedule.py                  25      5    80%   75-93
+alembic\versions\462d69c18f40_add_endstep_username_and_club_settings.py      19      5    74%   37-41
+alembic\versions\1292fad8bfd5_biginteger_for_tg_ids.py                       13      4    69%   24-28, 38-42
+alembic\versions\1413b684d806_add_archetype_is_custom.py                     11      2    82%   24, 31
+alembic\versions\3067ed27a905_add_archetype_color_identity.py                11      2    82%   21, 28
+alembic\versions\4953faa801dd_add_tournament_creation_plans.py               21      6    71%   50-55
+alembic\versions\5132b26f0434_add_cellar_notification_preference.py          11      2    82%   21, 28
+alembic\versions\6641aaaaee68_add_archetype_meta_rank.py                     13      4    69%   24-25, 32-33
+alembic\versions\36595f965e2c_track_aetherhub_not_found_notification.py      11      2    82%   21, 25
+alembic\versions\71797c25e8da_add_online_round_results.py                    23      7    70%   80-86
+alembic\versions\94843f3c9b5f_add_round_pairings.py                          13      4    69%   24-34, 41-42
+alembic\versions\97852ac01f1f_initial.py                                     45     36    20%   24-106, 113-130
+alembic\versions\712642f519b0_add_magicoculus_import_journal.py              15      6    60%   20-39, 43-45
+alembic\versions\00840004f838_add_tournament_is_online.py                    11      1    91%   29
+alembic\versions\53868428fae8_add_deferred_deck_reminders.py                 15      6    60%   21-29, 36-38
+alembic\versions\431364012714_add_archetype_general_name.py                  13      4    69%   22-26, 30-31
+alembic\versions\a1b2c3d4e5f6_add_participant_deck_added_by_tg_id.py         10      2    80%   18, 22
+alembic\versions\a2b3c4d5e6f7_web_link_requests.py                           13      4    69%   21-34, 38-39
+alembic\versions\a3f2e1b9c804_add_user_deck_history.py                       13      4    69%   21-33, 37-38
+alembic\versions\a5b6c7d8e9f0_add_poll_chat_username.py                      11      2    82%   21, 28
+alembic\versions\a6b7c8d9e0f1_add_payments.py                                16      7    56%   20-36, 40-43
+alembic\versions\a6fbdbee0220_track_meta_police_message.py                   15      6    60%   21-41, 49-57
+alembic\versions\a8bd90c89a94_add_cellar_sheet_position.py                   11      2    82%   21, 25
+alembic\versions\a058f39d9db8_add_archetype_macro_name.py                    15      6    60%   20-30, 45-46
+alembic\versions\a62db8f5ffdd_split_spy_and_spy_walls_general_names.py       11      1    91%   38
+alembic\versions\aa8d0dcf98b8_add_achievement_processing_runs.py             17      8    53%   21-44, 48-51
+alembic\versions\aac3d24c4e09_add_round_pairing_table_number.py              11      2    82%   21, 25
+alembic\versions\b0d6a607fe5d_add_poll_notifications.py                      13      4    69%   22-35, 39-40
+alembic\versions\b1c2d3e4f5a6_add_payment_message_id.py                      13      4    69%   20-21, 25-26
+alembic\versions\b2c3d4e5f6a7_add_tournament_aetherhub_url.py                10      2    80%   18, 22
+alembic\versions\b4b96e826905_add_hobby_games_schedule.py                    18      0   100%
+alembic\versions\b5c6d7e8f9a0_add_user_hide_deck_emoji.py                    11      2    82%   21, 25
+alembic\versions\b7c3d2e1f904_add_tournament_club.py                         13      4    69%   21-22, 26-27
+alembic\versions\b8dcffe21093_add_missing_decks_reminder.py                  11      2    82%   21, 25
+alembic\versions\c1d2e3f4a5b6_add_tournament_decks_hidden.py                 11      2    82%   21, 28
+alembic\versions\c3d4e5f6a7b8_add_tournament_aetherhub_import_time.py        10      2    80%   18, 22
+alembic\versions\cb06771cfa48_add_user_notify_opponent_rounds.py             11      2    82%   21, 25
+alembic\versions\cec6ea90e42a_add_achievement_processing_leases.py           13      4    69%   21-32, 40-41
+alembic\versions\cf460a2137a9_remove_voting_tournament_status.py             20     13    35%   20-31, 35-44
+alembic\versions\d2e3f4a5b6c7_fix_swapped_first_last_name.py                 19      8    58%   25-26, 30-44, 51
+alembic\versions\d4e5f6a7b8c9_add_feature_flags.py                           14      6    57%   18-30, 34-36
+alembic\versions\d05d9619e6af_add_pair_of_dice_schedules.py                  28      0   100%
+alembic\versions\e0f1a2b3c4d5_add_participant_final_place.py                 11      2    82%   21, 28
+alembic\versions\e3f4a5b6c7d8_add_tournament_polls.py                        13      4    69%   21-30, 41-42
+alembic\versions\e6dd452de63d_add_tournament_completed_announced_at.py       11      2    82%   21, 28
+alembic\versions\e7b4e1fa452a_track_registration_messages.py                 14      6    57%   18-39, 47-55
+alembic\versions\f4a5b6c7d8e9_add_participant_last_dm_at.py                  11      2    82%   21, 28
+alembic\versions\f6a7b8c9d0e1_add_user_is_scorekeeper.py                     11      2    82%   21, 25
+alembic\versions\f24df28a306e_repair_legacy_macro_cache.py                   12      3    75%   24-43, 63
+alembic\versions\f91459d45e99_add_unclosed_tournament_reminders.py           13      4    69%   21-22, 26-27
+bot\__init__.py                                                               0      0   100%
+bot\chart.py                                                                 44      0   100%
+bot\deck_emoji.py                                                            13      0   100%
+bot\deeplink.py                                                              37      0   100%
+bot\features.py                                                              14      0   100%
+bot\handlers\__init__.py                                                      0      0   100%
+bot\handlers\achievements.py                                                 97      4    96%   53, 70, 72, 108
+bot\handlers\admin.py                                                       450     20    96%   196-199, 206-208, 387, 415, 557-558, 595, 621-622, 633, 716-717, 723, 726-727
+bot\handlers\aetherhub.py                                                    74      1    99%   29
+bot\handlers\app_stats.py                                                    32      0   100%
+bot\handlers\base.py                                                         17      0   100%
+bot\handlers\bingo.py                                                       101      8    92%   108-109, 143, 145, 168-169, 175, 186
+bot\handlers\cellar.py                                                      105     12    89%   101, 106, 142, 151-152, 160, 164, 185, 189-190, 211, 213
+bot\handlers\clubs.py                                                        43      7    84%   27, 40, 43, 48, 51, 54-55
+bot\handlers\common.py                                                        0      0   100%
+bot\handlers\create_tournament.py                                           204     46    77%   52, 55, 64, 75, 78, 87, 90, 97, 100, 103, 110, 113, 124-142, 147, 150, 159-160, 238, 240, 255-256, 279-280, 283, 285, 293, 308, 314
+bot\handlers\features.py                                                     23      0   100%
+bot\handlers\payment.py                                                      30      0   100%
+bot\handlers\player.py                                                      299     24    92%   254-255, 267, 303, 305, 307, 317-324, 340-341, 353, 358, 367, 374, 393, 395, 397, 482-483, 485, 499, 501-502, 544
+bot\handlers\rating.py                                                       33      0   100%
+bot\handlers\round_notify.py                                                 28      0   100%
+bot\handlers\round_results.py                                               177     77    56%   44, 48, 74-96, 112-113, 116-124, 137-138, 149-150, 158, 170-171, 174-180, 186-195, 198-212, 215-221, 224-230, 240-241, 257, 260, 277, 283-285
+bot\handlers\schedule.py                                                    156     26    83%   66, 85, 88, 97, 99, 106, 117, 124-126, 133, 139, 141, 151, 157-161, 166, 168, 184, 187, 193, 195, 198
+bot\handlers\settings.py                                                     64      2    97%   38, 79
+bot\handlers\tournament_status.py                                            34      1    97%   28
+bot\handlers\voting.py                                                        0      0   100%
+bot\keyboards\__init__.py                                                   558     46    92%   187, 193, 196, 283, 340, 350, 403-406, 430, 479-480, 482, 539, 579, 586, 611-626, 629, 674, 685, 931, 1128, 1200, 1234, 1250, 1254, 1276, 1280, 1284, 1288, 1292, 1304, 1316, 1320, 1324, 1368, 1380, 1384
+bot\messages\__init__.py                                                    313      9    97%   143, 147, 235, 257, 294-295, 348, 350, 384
+bot\meta_police_message.py                                                   79     20    75%   25, 33, 35, 37, 42, 47, 61, 78, 89, 110, 114, 116-124
+bot\middlewares\__init__.py                                                   0      0   100%
+bot\registration_messages.py                                                 74     13    82%   31, 64-66, 74, 100-106, 111
+bot\scheduler.py                                                            865    167    81%   120, 151-152, 199, 226-228, 244-245, 248, 263, 284-287, 290, 298, 301, 307, 326, 341, 353, 364-366, 369, 411-413, 435, 487-489, 494-495, 500-501, 510-511, 517-519, 526-527, 532, 547-571, 582-651, 675, 686, 709-712, 738, 742, 772, 788-789, 797, 801, 845, 860, 865, 929-931, 934, 1005, 1009-1011, 1020-1021, 1056, 1071, 1194, 1196, 1286-1287, 1343-1344, 1350-1354, 1363, 1372, 1382-1383, 1397-1398, 1408-1409, 1419-1420, 1429, 1451, 1467, 1486
+bot\telegram\__init__.py                                                      0      0   100%
+bot\telegram\achievements.py                                                191     23    88%   51, 62, 77-78, 82, 108-109, 114-115, 134, 152, 195, 230, 278-279, 299, 315-342
+bot\telegram\admin.py                                                       775    626    19%   47-68, 73-84, 89-106, 111-145, 150-167, 172-181, 186-203, 208-246, 251-260, 265-274, 279-290, 302, 307, 321, 337, 340-341, 344-347, 359-360, 371-380, 385-394, 399-421, 426-455, 460-484, 489-515, 520-537, 542-560, 565-579, 584-604, 612, 615, 621-622, 624, 638, 641, 647-648, 661, 664, 670-671, 680-698, 703-744, 753-777, 785-798, 803-821, 826-855, 860-878, 882-891, 896-913, 918-935, 940-957, 962-980, 985-1003, 1008-1026
+bot\telegram\aetherhub.py                                                   212    175    17%   40-42, 46-48, 53-115, 122-152, 157-190, 195-268, 273-292, 299-303
+bot\telegram\app_stats.py                                                    45     34    24%   14, 19-29, 34-44, 49-62
+bot\telegram\bingo.py                                                        41      4    90%   24, 33, 63-64
+bot\telegram\cellar.py                                                      143    111    22%   19, 31-32, 37-54, 58-74, 78-89, 93-109, 113-129, 133-144, 148-159, 163-164, 168-172, 176-181, 185-201
+bot\telegram\club_pairings.py                                                17      5    71%   14, 17, 20-22
+bot\telegram\clubs.py                                                        70     35    50%   15, 22, 32-42, 46-64, 71, 74-75, 83-84
+bot\telegram\common.py                                                       99     54    45%   26, 31-32, 38, 61, 71-72, 75-76, 82-95, 103-105, 111-120, 127-136, 143-151, 155-165
+bot\telegram\create_tournament.py                                           130    102    22%   24, 33-39, 43-45, 49-60, 64-77, 81-87, 91, 95-99, 103-107, 111-115, 119-123, 127-131, 135-142, 146-175
+bot\telegram\debug.py                                                        78     21    73%   26, 32-34, 44-48, 60, 63, 68-69, 78-79, 89, 92, 97-98, 108-109
+bot\telegram\deck_reminder.py                                                30      1    97%   31
+bot\telegram\features.py                                                     47     19    60%   17-26, 30-36, 43, 49-50
+bot\telegram\payment.py                                                      40     27    32%   15, 19-20, 24-57
+bot\telegram\player.py                                                      487    153    69%   55, 70, 86, 93-94, 123, 126, 139-142, 161, 164, 176-179, 196, 199, 211-220, 227, 230, 236-237, 245-262, 269, 272, 280-281, 310, 313, 319-320, 322, 331-351, 358, 361, 368-369, 380, 383, 389-390, 399-416, 446-447, 462-470, 477-478, 483-484, 503-504, 526-527, 564-573, 579, 581-582, 595-596, 616-632, 656, 658
+bot\telegram\poll.py                                                        461    395    14%   71, 75-76, 81-113, 118-137, 142-210, 215-275, 279-281, 286-339, 344-346, 366-383, 388-401, 406-430, 435-462, 467-491, 496-529, 534-555, 565-594, 599-624, 629-676, 681-683
+bot\telegram\rating.py                                                       18     10    44%   11, 15-24
+bot\telegram\round_notify.py                                                 35      0   100%
+bot\telegram\round_results.py                                               119     53    55%   23-24, 42-43, 48-49, 56-67, 71, 75, 79, 90, 93, 109, 116, 119, 136, 146, 150, 154, 158, 166, 170-191, 195-198
+bot\telegram\schedule.py                                                    238    214    10%   19, 24-31, 36-46, 51-61, 65-75, 79-95, 99-116, 121-138, 143-162, 167-192, 197-217, 222-239, 244-263, 268-300
+bot\telegram\settings.py                                                    116     36    69%   52, 55, 92-103, 107-118, 125, 137-148
+bot\tournament_creation.py                                                   50     11    78%   31-39, 57-58
+cli.py                                                                       17     17     0%   1-22
+cli\__init__.py                                                               0      0   100%
+cli\achievements.py                                                         149    107    28%   27-28, 32, 37-78, 84-95, 101-119, 130-145, 194-197, 212-230, 239-250, 263-270, 283-291, 303-311
+cli\db.py                                                                     8      4    50%   8-12
+cli\magicoculus.py                                                           34      4    88%   59-61, 66
+cli\migration.py                                                             67      8    88%   58, 91-95, 117, 120
+cli\tournament.py                                                           123    123     0%   1-175
+cli\user.py                                                                  59     59     0%   1-89
+config\__init__.py                                                           15      0   100%
+config\debug.py                                                               2      0   100%
+config\prod.py                                                                2      0   100%
+core\__init__.py                                                              4      0   100%
+core\clubs.py                                                                40      0   100%
+core\config.py                                                               93     14    85%   20, 24, 136-147
+core\database.py                                                             21      4    81%   53-57
+core\event_log.py                                                            65     14    78%   56-57, 71-72, 75, 78-89, 133, 144
+core\models.py                                                              485      0   100%
+core\schemas.py                                                              87      0   100%
+main.py                                                                     265    216    18%   179-184, 188, 221-239, 244-308, 315-332, 336-620, 624-625
+scripts\aetherhub\__init__.py                                                 0      0   100%
+scripts\aetherhub\aetherhub_test.py                                          29      4    86%   19-20, 23-24
+services\achievement_bingo_image.py                                          75      3    96%   53, 172, 176
+services\achievement_delivery.py                                             44      2    95%   107, 186
+services\achievement_image.py                                               122      1    99%   213
+services\achievement_processing_lease.py                                     24      0   100%
+services\achievement_report_log.py                                           20      1    95%   24
+services\achievements\__init__.py                                             5      0   100%
+services\achievements\bingo\__init__.py                                       6      0   100%
+services\achievements\bingo\fairness.py                                     142      5    96%   57, 59, 114, 160, 278
+services\achievements\bingo\fixtures.py                                      49      0   100%
+services\achievements\bingo\generator.py                                    197     23    88%   61, 118, 162, 196, 199, 219, 223, 299-301, 315, 320, 327, 332, 340, 345, 347, 351, 354, 365, 369, 375, 377
+services\achievements\bingo\models.py                                       192     13    93%   88, 90, 92, 94, 96, 98, 100, 216, 218, 220, 222, 224, 226
+services\achievements\bingo\parameterizers.py                                58     10    83%   34, 36, 38, 40, 42, 61, 63, 65, 129, 132
+services\achievements\context.py                                             97      6    94%   88, 92-93, 102, 122, 162
+services\achievements\definitions.py                                         50      1    98%   217
+services\achievements\history.py                                            198     16    92%   118-123, 163, 176, 183, 189, 201, 224-225, 305, 352-361
+services\achievements\registry.py                                            66      4    94%   39, 41, 54, 70
+services\achievements\report.py                                              80      2    98%   30, 82
+services\achievements\rules.py                                              192     13    93%   99, 107, 132, 135, 229, 250, 272, 280, 296, 299, 305, 320, 335
+services\achievements\service.py                                            265     23    91%   90-93, 97-100, 148, 231, 268, 355, 370-371, 400, 402, 404, 443-444, 464-465, 476, 550
+services\aetherhub_import_service.py                                        423     11    97%   47, 271, 326, 437-441, 523, 611, 645
+services\aetherhub_models.py                                                 29      0   100%
+services\aetherhub_service.py                                               258     15    94%   80, 82, 109-110, 177, 213-214, 217, 223-224, 249, 258, 267, 286, 392
+services\app_stats.py                                                        11      0   100%
+services\archetype.py                                                        81      7    91%   100-103, 108-110
+services\cellar.py                                                          302     19    94%   33, 35, 72, 214, 221, 267-276, 479, 481, 519, 580, 587-588
+services\cellar_sheet.py                                                     84      9    89%   65-66, 84, 93, 112, 124, 128-130
+services\chart_style.py                                                      51      0   100%
+services\club_pairings.py                                                    61      9    85%   44, 50, 67-73
+services\club_settings.py                                                    53      4    92%   64-65, 75, 81
+services\datalens.py                                                        195      3    98%   420-421, 424
+services\debug_tournament.py                                                140      7    95%   92, 95, 176, 183-184, 225, 227
+services\deck_book.py                                                        26      0   100%
+services\deck_colors.py                                                      98      0   100%
+services\deck_mapping.py                                                    231     28    88%   212, 220, 246, 278, 343, 358, 409-422, 439, 441, 443, 445, 447, 449, 451, 453, 455
+services\deck_reminders.py                                                   31      0   100%
+services\errors.py                                                            2      0   100%
+services\export.py                                                          164     15    91%   80-96, 307-318
+services\feature_flags.py                                                    71      0   100%
+services\magicoculus.py                                                     250     15    94%   153, 156-157, 180, 207-208, 229, 245-246, 254-255, 258, 369-370, 380
+services\meta_chart.py                                                      143      1    99%   96
+services\meta_police_message.py                                              47      0   100%
+services\meta_table_import.py                                               124     11    91%   31, 33, 35, 37-40, 42-43, 62, 195
+services\names.py                                                            85      2    98%   90, 102
+services\payment_service.py                                                  50     24    52%   35-62, 69, 77-81, 85-95
+services\poll.py                                                            127      1    99%   200
+services\rating.py                                                           14      0   100%
+services\registration_message.py                                             45      0   100%
+services\round_notifications.py                                              92      0   100%
+services\round_results.py                                                   231     37    84%   53, 86, 171, 179, 198, 202-225, 235, 240, 244, 247, 249, 251, 266, 280, 301, 305, 309, 325, 328, 330
+services\schedule.py                                                        143      3    98%   63, 174, 189
+services\season_stats.py                                                    250     19    92%   115, 135-139, 177, 237-238, 244, 246, 249, 261-263, 278, 284, 342, 353
+services\services_errors.py                                                  27      0   100%
+services\standings_image.py                                                 134      1    99%   179
+services\stats.py                                                            33      5    85%   67-90
+services\tournament.py                                                      269      4    99%   225-230, 406-407
+services\tournament_creation.py                                             112     21    81%   68, 70, 72, 83, 120, 123, 125, 154, 163, 171, 176-181, 186-190
+services\tournament_migration.py                                            151      0   100%
+services\tournament_sheet.py                                                124     22    82%   45-52, 94, 102, 115-116, 125, 143-144, 162-166, 170-171, 175-176
+services\user.py                                                            303      9    97%   106, 173, 240, 301, 337, 390, 497, 524, 533
+services\utils.py                                                            13      0   100%
+services\web_auth.py                                                         24      0   100%
+tests\__init__.py                                                             0      0   100%
+tests\conftest.py                                                            63      0   100%
+tests\e2e\__init__.py                                                         0      0   100%
+tests\e2e\conftest.py                                                        31      0   100%
+tests\e2e\test_social_rating.py                                              38      0   100%
+tests\e2e\test_tournament_flow.py                                           131      0   100%
+tests\test_achievement_bingo_fairness.py                                    104      0   100%
+tests\test_achievement_bingo_generator.py                                   114      0   100%
+tests\test_achievement_bingo_image.py                                        17      0   100%
+tests\test_achievement_hardening.py                                          88      0   100%
+tests\test_achievement_image.py                                              41      0   100%
+tests\test_achievement_processing_lease.py                                   36      0   100%
+tests\test_achievement_processing_status.py                                  40      0   100%
+tests\test_achievement_report_log.py                                         26      0   100%
+tests\test_achievements_handler.py                                           54      0   100%
+tests\test_achievements_notify.py                                           337      0   100%
+tests\test_achievements_registry.py                                          19      0   100%
+tests\test_achievements_rules.py                                            162      1    99%   36
+tests\test_achievements_service.py                                          139      1    99%   22
+tests\test_achievements_visibility.py                                        96      0   100%
+tests\test_admin_actions.py                                                1233      7    99%   864-865, 878, 882, 1062, 1316, 1985
+tests\test_aetherhub_club.py                                                656      0   100%
+tests\test_aetherhub_handler.py                                             128      0   100%
+tests\test_aetherhub_retry.py                                                14      0   100%
+tests\test_aetherhub_round_overcount.py                                      33      0   100%
+tests\test_aetherhub_service.py                                             802     13    98%   477-497, 1005-1018, 1420
+tests\test_app_stats.py                                                      68      0   100%
+tests\test_archetype_menu.py                                                448      1    99%   725
+tests\test_auto_reveal_decks.py                                              91      0   100%
+tests\test_bingo_preview_handler.py                                          66      0   100%
+tests\test_bot_chart.py                                                      93      0   100%
+tests\test_cellar_access.py                                                 193      0   100%
+tests\test_cellar_scheduler.py                                              141      0   100%
+tests\test_cellar_service.py                                                152      0   100%
+tests\test_cellar_sheet.py                                                   80      0   100%
+tests\test_cellar_web.py                                                    120      0   100%
+tests\test_cli_achievement_stats.py                                          25      0   100%
+tests\test_cli_magicoculus.py                                                48      0   100%
+tests\test_cli_migration.py                                                  70      0   100%
+tests\test_club_pairings.py                                                  51      0   100%
+tests\test_club_settings.py                                                  63      0   100%
+tests\test_database_schema.py                                                18      0   100%
+tests\test_database_sessions.py                                              41      0   100%
+tests\test_datalens_service.py                                              204      0   100%
+tests\test_deck_book.py                                                      46      0   100%
+tests\test_deck_colors.py                                                    83      0   100%
+tests\test_deck_emoji.py                                                     30      1    97%   63
+tests\test_deck_mapping.py                                                   39      0   100%
+tests\test_deck_reminders.py                                                 58      0   100%
+tests\test_decks_hidden.py                                                  166      0   100%
+tests\test_deeplink.py                                                      113      0   100%
+tests\test_deploy_hardening.py                                               44      0   100%
+tests\test_endstep_ru_config.py                                              59      0   100%
+tests\test_export_sorting.py                                                 89      0   100%
+tests\test_feature_flags.py                                                 115      0   100%
+tests\test_final_reimport.py                                                 71      0   100%
+tests\test_hobby_games_aetherhub.py                                          64      0   100%
+tests\test_hobby_games_config.py                                             25      0   100%
+tests\test_hobby_games_imports_migration.py                                  39      0   100%
+tests\test_hobby_games_schedule_migration.py                                 54      0   100%
+tests\test_import_orphan_pairings.py                                         21      0   100%
+tests\test_keyboards.py                                                     186      0   100%
+tests\test_magicoculus_client.py                                             55      0   100%
+tests\test_magicoculus_collector.py                                         137      0   100%
+tests\test_magicoculus_importer.py                                           36      0   100%
+tests\test_magicoculus_journal.py                                            25      2    92%   26, 41
+tests\test_main_handlers.py                                                  15      0   100%
+tests\test_merge_placeholder.py                                             108      0   100%
+tests\test_messages.py                                                       91      0   100%
+tests\test_meta_chart.py                                                    116      0   100%
+tests\test_meta_gather_completed.py                                         507      4    99%   369-372
+tests\test_meta_police_message.py                                           103      0   100%
+tests\test_meta_table_import.py                                             163      0   100%
+tests\test_migrations.py                                                    125      0   100%
+tests\test_missing_decks_community.py                                       110      0   100%
+tests\test_missing_decks_reminder.py                                        126      0   100%
+tests\test_name_format.py                                                    65      0   100%
+tests\test_pair_of_dice_config.py                                            27      0   100%
+tests\test_pair_of_dice_migration.py                                         48      0   100%
+tests\test_pair_of_dice_schedule_migration.py                                59      0   100%
+tests\test_pairings_export.py                                                93      0   100%
+tests\test_payment_handler.py                                                61      0   100%
+tests\test_player_actions.py                                                288      0   100%
+tests\test_poll_helpers.py                                                  114      0   100%
+tests\test_poll_service.py                                                  303      0   100%
+tests\test_prestart_reminder.py                                             112      0   100%
+tests\test_rating_service.py                                                128      0   100%
+tests\test_register_merges_placeholder.py                                    43      0   100%
+tests\test_registration_messages.py                                         100      0   100%
+tests\test_round_notifications.py                                           550      0   100%
+tests\test_round_results.py                                                 192      0   100%
+tests\test_schedule_service.py                                              322      0   100%
+tests\test_scheduler.py                                                      28      0   100%
+tests\test_scheduler_create.py                                              193      0   100%
+tests\test_season_stats.py                                                   75      0   100%
+tests\test_seed.py                                                           20      0   100%
+tests\test_settings.py                                                      289      0   100%
+tests\test_standings.py                                                     138      0   100%
+tests\test_started_at_on_import.py                                           23      0   100%
+tests\test_status_by_pairings.py                                            133      0   100%
+tests\test_telegram_achievements.py                                          55      2    96%   83-84
+tests\test_telegram_admin_close.py                                           48      0   100%
+tests\test_telegram_bingo.py                                                 61      2    97%   86-87
+tests\test_telegram_clubs.py                                                 31      0   100%
+tests\test_telegram_debug.py                                                 56      0   100%
+tests\test_telegram_features.py                                              43      0   100%
+tests\test_telegram_imports.py                                                8      0   100%
+tests\test_telegram_player.py                                               277      0   100%
+tests\test_telegram_round_results.py                                         46      0   100%
+tests\test_telegram_settings.py                                             119      0   100%
+tests\test_tournament_creation_wizard.py                                    127      0   100%
+tests\test_tournament_migration.py                                          148      0   100%
+tests\test_tournament_service.py                                            586      0   100%
+tests\test_tournament_sheet.py                                               34      0   100%
+tests\test_unclosed_tournament_reminders.py                                  78      0   100%
+utils\__init__.py                                                             0      0   100%
+utils\formatters.py                                                           0      0   100%
+utils\import_players.py                                                     103    103     0%   24-170
+utils\seed.py                                                                24      6    75%   26, 35-37, 40, 44
+utils\validators.py                                                           0      0   100%
+web\__init__.py                                                               0      0   100%
+web\api\__init__.py                                                           0      0   100%
+web\api\app.py                                                               32     32     0%   1-50
+web\app.py                                                                    8      0   100%
+web\auth.py                                                                  48     32    33%   15-19, 27-31, 39-45, 52-56, 60-73
+web\email.py                                                                 19     12    37%   14-33
+web\routes\__init__.py                                                        0      0   100%
+web\routes\auth.py                                                           37     13    65%   21-23, 28-33, 42, 62-64
+web\routes\cellar.py                                                         62      8    87%   48-49, 62-75
+web\routes\me.py                                                             16      4    75%   18-44
+web\routes\settings.py                                                       80     41    49%   22-24, 34, 96-106, 121-138, 147-169, 180-209, 214
+web\routes\tournaments.py                                                    55     34    38%   18-24, 33-53, 73-88, 93-94, 106-127
+web\templating.py                                                            10      1    90%   10
+web\tg_sender.py                                                             13      8    38%   11-22
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                     32020   4277    87%
+2215 passed, 1 skipped in 602.82s (0:10:02)
